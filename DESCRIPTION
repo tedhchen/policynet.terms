@@ -1,0 +1,22 @@
+Package: policynet_terms
+Version: 0.0.1
+Date: 2020-12-21
+Title: ERGM Terms for Policy Network Studies
+Authors@R: c(person("Ted Hsuan Yun", "Chen", role=c("aut", "cre"), email="ted.hsuanyun.chen@gmail.com"))
+LinkingTo: ergm
+Depends:
+	R (>= 3.5.0),
+	network	(>= 1.15),
+	ergm (>= 3.10.1)
+Imports: statnet.common (>= 4.2.0)
+Description: Package containing ERGM terms for policy network studies; used with the ergm package.
+License: GPL-3 + file LICENSE
+Author: Ted Hsuan Yun Chen [aut, cre]
+Maintainer: Ted Hsuan Yun Chen <ted.hsuanyun.chen@gmail.com>
+NeedsCompilation: yes
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Encoding: UTF-8
