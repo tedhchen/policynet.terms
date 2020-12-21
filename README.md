@@ -19,7 +19,7 @@ To install the package from
 `devtools` package. If you are on a Windows machine, you will also need
 the standalone [Rtools](https://cran.r-project.org/bin/windows/Rtools/).
 If you do not already have the `network`, `ergm`, and `statnet.common`
-packages, installing `multilayer.ergm` will install them as well.
+packages, installing `policynet_terms` will install them as well.
 
 Install the package by entering the following into your R console.
 
