@@ -48,7 +48,7 @@ InitErgmTerm.sendreceive_attr_combo <- function(nw, arglist, ...){
     # Note: the sys.call business grabs the name of the x object from the 
     # user's call.  Not elegant, but it works as long as the user doesn't
     # pass anything complicated.
-    cn<-paste("sendreceive_attr_combo", paste(as.character(a$attr), collapse = '-'), '(', a$term_name, ')', sep = ".")
+    cn<-paste("sendreceive_attr_combo.", paste(as.character(a$attr), collapse = '-'), ifelse(is.null(a$term_name), '', paste('(', a$term_name, ')', sep = '')), sep = "")
   } else {
     cn<-paste("sendreceive_attr_combo", as.character(sys.call(0)[[3]][2]), sep = ".")
   }
