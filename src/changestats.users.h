@@ -1,4 +1,4 @@
-// File src/changestats.users.h in package policynet_terms.
+// File src/changestats.users.h in package policynet.terms.
 
 #ifndef CHANGESTATS_H
 #define CHANGESTATS_H

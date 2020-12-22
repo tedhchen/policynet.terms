@@ -2,7 +2,7 @@
   desc<- packageDescription(pkgname, libname)
   packageStartupMessage(
     '======================\n',
-    'Package:  policynet_terms\n', 
+    'Package:  policynet.terms\n', 
     'Version:  ', desc$Version, '\n', 
     'Date:     ', desc$Date, '\n', 
     'Author:   Ted Hsuan Yun Chen (Aalto University and University of Helsinki)\n'

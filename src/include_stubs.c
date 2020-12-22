@@ -1,3 +1,3 @@
-// File src/include_stubs.c in package policynet_terms.
+// File src/include_stubs.c in package policynet.terms.
 
 #include "ergm_stubs.c"

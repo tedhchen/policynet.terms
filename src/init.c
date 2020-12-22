@@ -1,4 +1,4 @@
-// File src/init.c in package policynet_terms.
+// File src/init.c in package policynet.terms.
 
 #include <stdlib.h> // for NULL
 #include <R_ext/Rdynload.h>
